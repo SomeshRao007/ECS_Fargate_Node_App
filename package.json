@@ -1,0 +1,13 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "description": "creating a hellooworld node.js app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node helloworld.js"
+  },
+  "dependencies": {
+    "node": "^16.0.0"
+  }
+}
+
