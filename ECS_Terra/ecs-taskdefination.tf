@@ -8,7 +8,7 @@ resource "aws_ecs_task_definition" "HelloTD" {
   container_definitions = jsonencode([
     {
       name      = "main-container"
-      image     = "public.ecr.aws/n8y8c3i1/somesh007:latest"
+      image     = "469563970583.dkr.ecr.ap-south-1.amazonaws.com/somesh007"
       cpu       = 1024
       memory    = 2048
       essential = true
