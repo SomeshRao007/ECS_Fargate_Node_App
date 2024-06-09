@@ -1,6 +1,6 @@
 resource "aws_security_group" "HelloSG" {
   name        = "HelloSG"
-  description = "Allow Port 80"
+  description = "Allow Port 3000"
   vpc_id      = aws_vpc.hellovpc.id
 
   ingress {
